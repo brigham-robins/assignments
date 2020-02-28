@@ -1,0 +1,16 @@
+<blockbusters>
+  <movie name="StarWars: A New Hope" category="science fiction">
+    <actors>
+      <actor name="Mark Hamill"></actor>
+      <actor name="Harrison Ford"></actor>
+      <actor name="Carrie Fisher"></actor>
+    </actors>
+  </movie>
+  <movie name="Jurassic Park" category="Action">
+    <actors>
+      <actor name="Sam Niell"></actor>
+      <actor name="Laura Dern"> </actor>
+      <actor name="Jeff Goldblum"></actor>
+    </actors>
+  </movie>
+</blockbuster>
