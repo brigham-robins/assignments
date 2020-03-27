@@ -1,0 +1,2 @@
+root: C:\Users\TheBi\AppData\Roaming\nvm
+path: C:\Program Files\nodejs
