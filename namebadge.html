@@ -1,0 +1,82 @@
+<style>
+.tag {
+  border-radius: 30px;
+  background: red;
+  border: 2px solid black;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+}
+  .text1 {
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+  }
+ 
+  .text2 {
+    color: white;
+    font-family: arial;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .nameArea {
+    width: 100%;
+    height: 45%;
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: center;
+
+  }
+
+    input[type=text]{
+      display: block;
+      text-align: center;
+      border: 1px solid black;
+      margin: auto;
+      margin-top: 10px;
+  }
+    
+    button{
+      display: block;
+      border: 1px solid black;
+      margin: auto;
+      margin-top: 8px;
+    }
+  </style>
+  <section class ="tag">
+    <div>
+      <h1 class="text1"> Hello </h1>
+      <p class="text2"> my name is</p>
+    </div>
+    <section class="nameArea">
+      <p id='show-name'></p>
+    </section> 
+  </section>
+    <input type="text" id="users-name" placeholder="Enter Name Here">
+    <button onClick="usersName()">Show Name</button>
+
+<script>
+  const name = {
+  name: ''
+}
+
+const usersName = () => {
+  name.name = document.getElementById('users-name').value
+  
+  showName()
+}
+
+const showName = () => {
+  console.log('runningShowName')
+  document.getElementById('show-name').innerHTML = name.name
+    
+  console.log(name.name)
+}
+</script>
